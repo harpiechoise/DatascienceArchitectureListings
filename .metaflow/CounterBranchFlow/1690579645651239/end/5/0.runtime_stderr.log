@@ -1,0 +1,37 @@
+[MFLOG|0|2023-07-28T21:27:27.844208Z|runtime|eb7b5e49-f305-4599-adb5-773e552328d1]<flow CounterBranchFlow step end> failed:
+[MFLOG|0|2023-07-28T21:27:27.855919Z|runtime|2d441901-2af5-4d09-a322-6c0836e23c83]    Internal error
+[MFLOG|0|2023-07-28T21:27:27.859155Z|runtime|c00323c8-79de-4e6c-9298-2ad8b604f08d]Traceback (most recent call last):
+[MFLOG|0|2023-07-28T21:27:27.859582Z|runtime|c1aad425-30ef-4c42-a6b9-60b76e48efc2]  File "/media/psyche/1b991d7a-4506-489a-a09f-56c7f93645f8/miniconda3/envs/ds/lib/python3.11/site-packages/metaflow/cli.py", line 1172, in main
+[MFLOG|0|2023-07-28T21:27:27.859896Z|runtime|e1617894-b9b2-402f-85e0-99795e631bf0]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2023-07-28T21:27:27.860127Z|runtime|24a3b77c-4b7c-4f16-9481-f23371926b7d]  File "/media/psyche/1b991d7a-4506-489a-a09f-56c7f93645f8/miniconda3/envs/ds/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2023-07-28T21:27:27.860358Z|runtime|c7721a65-7139-437f-bb2a-80a07d25436f]    return self.main(args, kwargs)
+[MFLOG|0|2023-07-28T21:27:27.944439Z|runtime|037aa2a9-79c3-4604-843c-2300171c162b]           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-07-28T21:27:27.944631Z|runtime|93e977f3-b32b-405a-93d0-ab734db5e757]  File "/media/psyche/1b991d7a-4506-489a-a09f-56c7f93645f8/miniconda3/envs/ds/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2023-07-28T21:27:27.944724Z|runtime|55a3e76c-8a3c-4149-89b7-d13e4f08bb05]    rv = self.invoke(ctx)
+[MFLOG|0|2023-07-28T21:27:27.944806Z|runtime|e90928a8-1de3-4431-ac64-f1f5276e6c57]         ^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-07-28T21:27:27.944882Z|runtime|bc980e6c-f758-4ac9-ab6d-bce9e6ddf3a7]  File "/media/psyche/1b991d7a-4506-489a-a09f-56c7f93645f8/miniconda3/envs/ds/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2023-07-28T21:27:27.944959Z|runtime|0c2f8182-8e35-4317-a8d2-6502883848cf]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2023-07-28T21:27:27.945034Z|runtime|2abe1e85-d829-4de6-9c07-2094d0790b89]                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-07-28T21:27:27.945107Z|runtime|cb8e93bc-e71e-4830-9da3-327562096fbb]  File "/media/psyche/1b991d7a-4506-489a-a09f-56c7f93645f8/miniconda3/envs/ds/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2023-07-28T21:27:27.945194Z|runtime|77d1f928-dbe0-4e2c-b142-a5eed85ac95c]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2023-07-28T21:27:27.945306Z|runtime|a251c0f9-b681-4dba-a3e6-d20f8bb0d85a]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-07-28T21:27:27.945381Z|runtime|6bc16520-f75e-406b-b397-b9e1597b1bc1]  File "/media/psyche/1b991d7a-4506-489a-a09f-56c7f93645f8/miniconda3/envs/ds/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2023-07-28T21:27:27.945456Z|runtime|4a7d382e-7dc3-4970-bc92-741ae04ba1e3]    return callback(args, kwargs)
+[MFLOG|0|2023-07-28T21:27:27.945542Z|runtime|4ad72bb1-4e33-42fb-8bdf-8b58104f500f]           ^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-07-28T21:27:27.945613Z|runtime|f30fa80a-f029-4ce0-8dff-ab8a13858253]  File "/media/psyche/1b991d7a-4506-489a-a09f-56c7f93645f8/miniconda3/envs/ds/lib/python3.11/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2023-07-28T21:27:27.945687Z|runtime|fa587d41-b5ed-4695-8ba1-723a1ecd4a71]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2023-07-28T21:27:27.945759Z|runtime|e4ace317-1470-4372-97f4-bc980b3e50cf]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-07-28T21:27:27.945832Z|runtime|1b7ecc08-6cb4-4652-b17f-1f2a25b1f80d]  File "/media/psyche/1b991d7a-4506-489a-a09f-56c7f93645f8/miniconda3/envs/ds/lib/python3.11/site-packages/metaflow/cli.py", line 581, in step
+[MFLOG|0|2023-07-28T21:27:27.945908Z|runtime|61bf9c52-410b-4d11-b3b4-54cee422eeba]    task.run_step(
+[MFLOG|0|2023-07-28T21:27:27.945985Z|runtime|f6a66a39-df0d-4abb-b073-673873b950da]  File "/media/psyche/1b991d7a-4506-489a-a09f-56c7f93645f8/miniconda3/envs/ds/lib/python3.11/site-packages/metaflow/task.py", line 586, in run_step
+[MFLOG|0|2023-07-28T21:27:27.946062Z|runtime|a9f3fcc3-7dae-4274-8f03-5afd8101469a]    self._exec_step_function(step_func)
+[MFLOG|0|2023-07-28T21:27:27.946138Z|runtime|bfc684b9-ba1b-4480-9100-0f8d358ffcd2]  File "/media/psyche/1b991d7a-4506-489a-a09f-56c7f93645f8/miniconda3/envs/ds/lib/python3.11/site-packages/metaflow/task.py", line 60, in _exec_step_function
+[MFLOG|0|2023-07-28T21:27:27.946219Z|runtime|074a6e78-8c13-4ce6-898e-9a20c1073915]    step_function()
+[MFLOG|0|2023-07-28T21:27:27.946292Z|runtime|1890179b-485e-4c23-a669-9b9e8c6cd907]  File "/home/psyche/programando/python3/metaflow/chap3/branch_counter_flow_merge_help.py", line 49, in end
+[MFLOG|0|2023-07-28T21:27:27.946354Z|runtime|abe82b51-9dc8-40c9-a679-8579e2accbde]    print('The creature is', self.creature)
+[MFLOG|0|2023-07-28T21:27:27.946419Z|runtime|ca228c9c-a26d-4191-bc02-42f637e38555]                             ^^^^^^^^^^^^^
+[MFLOG|0|2023-07-28T21:27:27.946478Z|runtime|ba41c987-4153-42a9-a72d-e581a6ad6769]  File "/media/psyche/1b991d7a-4506-489a-a09f-56c7f93645f8/miniconda3/envs/ds/lib/python3.11/site-packages/metaflow/flowspec.py", line 229, in __getattr__
+[MFLOG|0|2023-07-28T21:27:27.946530Z|runtime|6fb54d2c-a17e-4172-967d-26a6b99aa2b3]    raise AttributeError("Flow %s has no attribute '%s'" % (self.name, name))
+[MFLOG|0|2023-07-28T21:27:27.946581Z|runtime|2eb3f157-9d4c-4630-a274-7cee05ebb516]AttributeError: Flow CounterBranchFlow has no attribute 'creature'
+[MFLOG|0|2023-07-28T21:27:27.946630Z|runtime|68faa4e6-4bff-4c2b-82f0-c1c232f3f6fd]
+[MFLOG|0|2023-07-28T21:27:27.946870Z|runtime|72beb686-3598-4133-a4df-f6e7d49b4196]Task failed.

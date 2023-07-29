@@ -1,0 +1,3 @@
+[MFLOG|0|2023-07-28T03:28:02.969358Z|runtime|0f719057-c192-4c6f-b6ef-0aad25c96759]Especulo Is a string of: 8 characters
+[MFLOG|0|2023-07-28T03:28:02.969486Z|runtime|cd89e676-958f-48b8-bff7-edaafdc53501]Count is an integer: 1+1=2
+[MFLOG|0|2023-07-28T03:28:02.969544Z|runtime|51848d45-a287-4dce-bc0e-c3606c9192f3]Ratio is a <class 'NoneType'> and whose value is None

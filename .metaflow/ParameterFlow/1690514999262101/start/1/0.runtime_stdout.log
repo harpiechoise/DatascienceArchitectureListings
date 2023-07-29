@@ -1,0 +1,3 @@
+[MFLOG|0|2023-07-28T03:29:59.491761Z|runtime|df51b20b-f8df-4374-b7e5-9039da075c14]otter Is a string of: 5 characters
+[MFLOG|0|2023-07-28T03:29:59.491887Z|runtime|b28ccb9b-3043-42e0-a307-7bc244138ccb]Count is an integer: 1+1=2
+[MFLOG|0|2023-07-28T03:29:59.491946Z|runtime|634dc86d-08d2-4a22-93c3-41c73eeabbd9]Ratio is a <class 'float'> and whose value is 0.25
